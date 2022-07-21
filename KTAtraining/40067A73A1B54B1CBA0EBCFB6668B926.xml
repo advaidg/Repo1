@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="utf-16"?>
+<SpaPackage xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SpaPackageIdentity>
+    <Id>40067A73A1B54B1CBA0EBCFB6668B926</Id>
+    <Name>KTAtraining</Name>
+    <Version>1</Version>
+  </SpaPackageIdentity>
+  <Description />
+  <CategoryIdentity>
+    <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>Default Category</Name>
+  </CategoryIdentity>
+  <LastModifiedDateTime>2022-06-03T07:56:25.077</LastModifiedDateTime>
+  <LastModifiedResource>
+    <Id>8277E8B7A09E4EAD9EDDDF87676C37CC</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>Nishwanth</Name>
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+    <ManagerialLevel>0</ManagerialLevel>
+  </LastModifiedResource>
+  <Data>
+    <Processes>
+      <ProcessIdentity>
+        <Id>0F9DBFA9754D4A90A74E926D53924FFC</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>2</Version>
+        <Name>SYSTEM Reset Password</Name>
+      </ProcessIdentity>
+      <ProcessIdentity>
+        <Id>1377275FC84A43309CA2D77814FE36C4</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>2</Version>
+        <Name>SYSTEM Passcode Notification</Name>
+      </ProcessIdentity>
+      <ProcessIdentity>
+        <Id>1D96FF582A4546CB90DF597D8AC13C3A</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>49</Version>
+        <Name>SYSTEM Active Directory Synchronization</Name>
+      </ProcessIdentity>
+      <ProcessIdentity>
+        <Id>6ECAE1AC5E3D4B8C8EEB3E29E8912F6D</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>13</Version>
+        <Name>SYSTEM Perform Auto Work Allocation</Name>
+      </ProcessIdentity>
+      <ProcessIdentity>
+        <Id>C071679A4FB3446DAC209BC3240389EB</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>4</Version>
+        <Name>SYSTEM Reset Quantity Counts</Name>
+      </ProcessIdentity>
+      <ProcessIdentity>
+        <Id>C4DC87432C7011D7A3FF00B0D0C0377B</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>29</Version>
+        <Name>SYSTEM Check For Completed Delegations</Name>
+      </ProcessIdentity>
+      <ProcessIdentity>
+        <Id>E46B98B2839D11D6A3C300B0D05FD71A</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>116</Version>
+        <Name>SYSTEM Process Email Activity</Name>
+      </ProcessIdentity>
+    </Processes>
+    <ProcessExportOption>
+      <ExportResources>false</ExportResources>
+      <ExportGroupResourceMembers>false</ExportGroupResourceMembers>
+      <ExportResourcesExtensions>false</ExportResourcesExtensions>
+      <ExportCategories>false</ExportCategories>
+      <WithCategoryParentage>false</WithCategoryParentage>
+      <GeneralizedExport>false</GeneralizedExport>
+      <ExportDotNetReferencesWithPath>true</ExportDotNetReferencesWithPath>
+      <ExportCaseFragments>false</ExportCaseFragments>
+      <ExportTemplateSkins>true</ExportTemplateSkins>
+      <ExportExtractionClassificationData>true</ExportExtractionClassificationData>
+      <ExportGlobalDataModels>false</ExportGlobalDataModels>
+      <ExportProcessDataModels>false</ExportProcessDataModels>
+      <ExportType>None</ExportType>
+      <Version>0</Version>
+      <ExportServerVariables>true</ExportServerVariables>
+      <XmlExpressionVariables />
+      <PreloadScript>1</PreloadScript>
+      <SleepDuration>0</SleepDuration>
+      <CategoryIds />
+      <ProcessDocument>false</ProcessDocument>
+      <ProcessViewer>false</ProcessViewer>
+      <DotNetActivityType>0</DotNetActivityType>
+      <Projects />
+      <AllProcessVariables />
+      <ExportOnlyDocumentGroupIdentityDetails>false</ExportOnlyDocumentGroupIdentityDetails>
+      <SiteDetailsRequired>false</SiteDetailsRequired>
+      <CmisSiteDetailsRequired>false</CmisSiteDetailsRequired>
+      <DocumentTemplates />
+      <Assets />
+      <PerceptiveSiteDetailsRequired>false</PerceptiveSiteDetailsRequired>
+      <IncludeExportConnectorMappings>false</IncludeExportConnectorMappings>
+      <IsSpaExport>false</IsSpaExport>
+      <ProcessType>BusinessProcess</ProcessType>
+      <ProtectedItems />
+      <ExportPageRenditions>false</ExportPageRenditions>
+      <ExportReportingTags>false</ExportReportingTags>
+      <ExportTestPlans>false</ExportTestPlans>
+      <IncludeProcessAssociationsInPackage>false</IncludeProcessAssociationsInPackage>
+      <IsGitExport>true</IsGitExport>
+    </ProcessExportOption>
+    <WorkAllocationRules />
+    <Skins />
+    <BusinessRules />
+    <Assets />
+    <Forms>
+      <FormIdentity>
+        <Id>1FE4D2C227A9463EA9774C7FBF89ABC0</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>GeneralWorkQueue</Name>
+        <Version>8</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>5B1343F25EC6471BB20279035A8C0C3E</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Adhoc Task</Name>
+        <Version>6</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>682117B1DE264E16A7BF54802BB34F2F</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Review AD Errors</Name>
+        <Version>9</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>8B30679E1EE447C48AC8285725FB98DB</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>CaptureSolutions</Name>
+        <Version>21</Version>
+      </FormIdentity>
+    </Forms>
+    <FormTemplates />
+    <FormExportOptions>
+      <ExportHeader>false</ExportHeader>
+      <ExportNavigation>false</ExportNavigation>
+      <ExportGlobalVariables>true</ExportGlobalVariables>
+      <ExportWebServices>false</ExportWebServices>
+      <ExportBusinessRules>false</ExportBusinessRules>
+      <ExportSecurityTokens>false</ExportSecurityTokens>
+      <ExportSecurityRoles>false</ExportSecurityRoles>
+      <ExportRoleMembers>false</ExportRoleMembers>
+      <ProcessExportOptions>
+        <ExportResources>false</ExportResources>
+        <ExportGroupResourceMembers>false</ExportGroupResourceMembers>
+        <ExportResourcesExtensions>false</ExportResourcesExtensions>
+        <ExportCategories>false</ExportCategories>
+        <WithCategoryParentage>false</WithCategoryParentage>
+        <GeneralizedExport>false</GeneralizedExport>
+        <ExportDotNetReferencesWithPath>true</ExportDotNetReferencesWithPath>
+        <ExportCaseFragments>false</ExportCaseFragments>
+        <ExportTemplateSkins>false</ExportTemplateSkins>
+        <ExportExtractionClassificationData>true</ExportExtractionClassificationData>
+        <ExportGlobalDataModels>false</ExportGlobalDataModels>
+        <ExportProcessDataModels>false</ExportProcessDataModels>
+        <ExportType>CombineAssociatedMaps</ExportType>
+        <Version>0</Version>
+        <ExportServerVariables>true</ExportServerVariables>
+        <XmlExpressionVariables />
+        <PreloadScript>1</PreloadScript>
+        <SleepDuration>0</SleepDuration>
+        <CategoryIds />
+        <ProcessDocument>false</ProcessDocument>
+        <ProcessViewer>false</ProcessViewer>
+        <DotNetActivityType>0</DotNetActivityType>
+        <Projects />
+        <AllProcessVariables />
+        <ExportOnlyDocumentGroupIdentityDetails>false</ExportOnlyDocumentGroupIdentityDetails>
+        <SiteDetailsRequired>false</SiteDetailsRequired>
+        <CmisSiteDetailsRequired>false</CmisSiteDetailsRequired>
+        <DocumentTemplates />
+        <Assets />
+        <PerceptiveSiteDetailsRequired>false</PerceptiveSiteDetailsRequired>
+        <IncludeExportConnectorMappings>false</IncludeExportConnectorMappings>
+        <IsSpaExport>false</IsSpaExport>
+        <ProcessType>BusinessProcess</ProcessType>
+        <ProtectedItems />
+        <ExportPageRenditions>false</ExportPageRenditions>
+        <ExportReportingTags>false</ExportReportingTags>
+        <ExportTestPlans>false</ExportTestPlans>
+        <IncludeProcessAssociationsInPackage>false</IncludeProcessAssociationsInPackage>
+        <IsGitExport>false</IsGitExport>
+      </ProcessExportOptions>
+      <IsSpaExport>false</IsSpaExport>
+      <ProtectedItems />
+    </FormExportOptions>
+    <Navigations />
+    <Sites />
+    <Themes />
+    <Languages />
+    <Lookups />
+    <Resources />
+    <Entities />
+    <WorkTypes />
+    <Checklists />
+    <DataModels />
+    <Folders />
+    <ExtractionGroups />
+    <ClassificationGroups />
+    <Formatters />
+    <FieldValidators />
+    <ChecklistItems />
+    <Events />
+    <Targets />
+    <Alerts />
+    <AlertExportOption>
+      <ExportAssociatedProcess>false</ExportAssociatedProcess>
+    </AlertExportOption>
+    <Categories>
+      <CategoryIdentity>
+        <Id>E2A1706B60424707B39A1BDDDC8DB69C</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>TotalAgility Forms</Name>
+      </CategoryIdentity>
+      <CategoryIdentity>
+        <Id>FBCB88103B4D414FAE8E38058F46CCF4</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>System Category</Name>
+      </CategoryIdentity>
+    </Categories>
+    <ScanVrsProfiles />
+    <PdfGenerationProfiles />
+    <DocumentConversionProfiles />
+    <JobSchedules />
+    <RegularExpressions />
+    <Personas />
+    <SeparationProfiles />
+    <Queries />
+    <ShowProcessAssociations>true</ShowProcessAssociations>
+    <ShowFormAssociations>true</ShowFormAssociations>
+    <SystemExportOptions>
+      <IncludeNoteTypes>false</IncludeNoteTypes>
+      <IncludeHotKeys>false</IncludeHotKeys>
+      <IncludePageRenditions>false</IncludePageRenditions>
+      <IncludeNodeColors>false</IncludeNodeColors>
+      <IncludeReportingTags>false</IncludeReportingTags>
+      <IncludeErrorCodes>false</IncludeErrorCodes>
+    </SystemExportOptions>
+    <ShowCategoryAssociations>true</ShowCategoryAssociations>
+    <Packages>
+      <SpaPackageIdentity>
+        <Id>3D8F695F09D44981B2D8269583A47686</Id>
+        <Name>Workspace Package</Name>
+        <Version>226</Version>
+      </SpaPackageIdentity>
+    </Packages>
+    <ProtectedItemsData>
+      <ProtectAllItems>false</ProtectAllItems>
+      <ProtectedItems />
+    </ProtectedItemsData>
+    <DocumentTypeVariantCollection />
+    <MissingAssociations />
+    <IncludeRoleMembers>true</IncludeRoleMembers>
+    <IncludeDevices>true</IncludeDevices>
+    <IncludeDeviceProfiles>true</IncludeDeviceProfiles>
+    <IncludeDeviceSettings>true</IncludeDeviceSettings>
+    <Deployments />
+    <ErrorList />
+    <CaptureControlLayouts />
+    <CustomServiceIdentities />
+    <CustomServiceGroupIdentities />
+    <CaptureSolutionIdentity>
+      <Id />
+      <Name />
+      <Version>0</Version>
+    </CaptureSolutionIdentity>
+    <ImportConnections />
+    <ImportSources />
+    <OAuthServers />
+    <QuickApp>
+      <Id />
+      <Name />
+      <Version>0</Version>
+    </QuickApp>
+    <PackageItemAssociations>
+      <PackageItemAssociation>
+        <Id>C071679A4FB3446DAC209BC3240389EB</Id>
+        <Name />
+        <ItemType>0</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>FBCB88103B4D414FAE8E38058F46CCF4</Id>
+            <ItemType>28</ItemType>
+            <Name>System Category</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>E2A1706B60424707B39A1BDDDC8DB69C</Id>
+            <ItemType>28</ItemType>
+            <Name>TotalAgility Forms</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>161F8F818093437482D2886B7B6756BB</Id>
+            <ItemType>36</ItemType>
+            <Name>SESSION_ID</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>1E70BD400456422DBFA431767DC6CB0F</Id>
+            <ItemType>36</ItemType>
+            <Name>WORKQUEUE_FORM</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>5E0F01E4914A48D08009FFC40C130EFF</Id>
+            <ItemType>36</ItemType>
+            <Name>EPC</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>8A1DD88A21124A98A51B5679DE7FDCB4</Id>
+            <ItemType>36</ItemType>
+            <Name>JOB_ID</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>AFBE96EA665E4F16A2FDA88044A23D0A</Id>
+            <ItemType>36</ItemType>
+            <Name>NODE_ID</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>FC4A7E347D984994B76C942BFFCDF07B</Id>
+            <ItemType>47</ItemType>
+            <Name />
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>682117B1DE264E16A7BF54802BB34F2F</Id>
+            <ItemType>6</ItemType>
+            <Name>Review AD Errors</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>1FE4D2C227A9463EA9774C7FBF89ABC0</Id>
+            <ItemType>6</ItemType>
+            <Name>GeneralWorkQueue</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>C071679A4FB3446DAC209BC3240389EB</Id>
+            <ItemType>0</ItemType>
+            <Name>SYSTEM Reset Quantity Counts</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>0F9DBFA9754D4A90A74E926D53924FFC</Id>
+            <ItemType>0</ItemType>
+            <Name>SYSTEM Reset Password</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>1377275FC84A43309CA2D77814FE36C4</Id>
+            <ItemType>0</ItemType>
+            <Name>SYSTEM Passcode Notification</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>1D96FF582A4546CB90DF597D8AC13C3A</Id>
+            <ItemType>0</ItemType>
+            <Name>SYSTEM Active Directory Synchronization</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>6ECAE1AC5E3D4B8C8EEB3E29E8912F6D</Id>
+            <ItemType>0</ItemType>
+            <Name>SYSTEM Perform Auto Work Allocation</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>C4DC87432C7011D7A3FF00B0D0C0377B</Id>
+            <ItemType>0</ItemType>
+            <Name>SYSTEM Check For Completed Delegations</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>E46B98B2839D11D6A3C300B0D05FD71A</Id>
+            <ItemType>0</ItemType>
+            <Name>SYSTEM Process Email Activity</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>SPP_SYSTEM_SESSION_ID</Id>
+            <ItemType>35</ItemType>
+            <Name />
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>SPP_SMTP_SERVER</Id>
+            <ItemType>35</ItemType>
+            <Name />
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>SYSTEM_EMAIL_FROM</Id>
+            <ItemType>35</ItemType>
+            <Name />
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>AD_CHASE_REFERRAL</Id>
+            <ItemType>35</ItemType>
+            <Name />
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>AD_DEACTIVATE_USER</Id>
+            <ItemType>35</ItemType>
+            <Name />
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>AD_LAST_USNCHANGED</Id>
+            <ItemType>35</ItemType>
+            <Name />
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>AD_PASSWORD</Id>
+            <ItemType>35</ItemType>
+            <Name />
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>AD_PORT</Id>
+            <ItemType>35</ItemType>
+            <Name />
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>AD_SECURITY_LEVEL</Id>
+            <ItemType>35</ItemType>
+            <Name />
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>AD_SERVERNAME</Id>
+            <ItemType>35</ItemType>
+            <Name />
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>AD_SERVERNAME_CN</Id>
+            <ItemType>35</ItemType>
+            <Name />
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>AD_USE_SECURED_CONNECTION</Id>
+            <ItemType>35</ItemType>
+            <Name />
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>AD_USERNAME</Id>
+            <ItemType>35</ItemType>
+            <Name />
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>AD_EMAIL_CONTENT_CRITICAL</Id>
+            <ItemType>35</ItemType>
+            <Name />
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>AD_EMAIL_ADMINISTRATOR</Id>
+            <ItemType>35</ItemType>
+            <Name />
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>AD_EMAIL_SUBJECT_CRITICAL</Id>
+            <ItemType>35</ItemType>
+            <Name />
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>AD_EMAIL_CONTENT_ERRORS</Id>
+            <ItemType>35</ItemType>
+            <Name />
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>AD_EMAIL_SUBJECT_ERRORS</Id>
+            <ItemType>35</ItemType>
+            <Name />
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>SKILL_LEVEL_SETTINGS</Id>
+            <ItemType>35</ItemType>
+            <Name />
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>UCMA_PRESENCE_SERVICE_URL</Id>
+            <ItemType>35</ItemType>
+            <Name />
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>USE_DESIGNTIME_RESOURCES</Id>
+            <ItemType>35</ItemType>
+            <Name />
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>E46B98B2839D11D6A3C300B0D05FD71A</Id>
+        <Name />
+        <ItemType>0</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>0F9DBFA9754D4A90A74E926D53924FFC</Id>
+        <Name />
+        <ItemType>0</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>1377275FC84A43309CA2D77814FE36C4</Id>
+        <Name />
+        <ItemType>0</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>1D96FF582A4546CB90DF597D8AC13C3A</Id>
+        <Name />
+        <ItemType>0</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>6ECAE1AC5E3D4B8C8EEB3E29E8912F6D</Id>
+        <Name />
+        <ItemType>0</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>C4DC87432C7011D7A3FF00B0D0C0377B</Id>
+        <Name />
+        <ItemType>0</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>682117B1DE264E16A7BF54802BB34F2F</Id>
+        <Name />
+        <ItemType>6</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>1FE4D2C227A9463EA9774C7FBF89ABC0</Id>
+        <Name />
+        <ItemType>6</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>161F8F818093437482D2886B7B6756BB</Id>
+        <Name />
+        <ItemType>36</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>1E70BD400456422DBFA431767DC6CB0F</Id>
+        <Name />
+        <ItemType>36</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>5E0F01E4914A48D08009FFC40C130EFF</Id>
+        <Name />
+        <ItemType>36</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>8A1DD88A21124A98A51B5679DE7FDCB4</Id>
+        <Name />
+        <ItemType>36</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>AFBE96EA665E4F16A2FDA88044A23D0A</Id>
+        <Name />
+        <ItemType>36</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>SPP_SYSTEM_SESSION_ID</Id>
+        <Name />
+        <ItemType>35</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>SPP_SMTP_SERVER</Id>
+        <Name />
+        <ItemType>35</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>SYSTEM_EMAIL_FROM</Id>
+        <Name />
+        <ItemType>35</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>AD_CHASE_REFERRAL</Id>
+        <Name />
+        <ItemType>35</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>AD_DEACTIVATE_USER</Id>
+        <Name />
+        <ItemType>35</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>AD_LAST_USNCHANGED</Id>
+        <Name />
+        <ItemType>35</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>AD_PASSWORD</Id>
+        <Name />
+        <ItemType>35</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>AD_PORT</Id>
+        <Name />
+        <ItemType>35</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>AD_SECURITY_LEVEL</Id>
+        <Name />
+        <ItemType>35</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>AD_SERVERNAME</Id>
+        <Name />
+        <ItemType>35</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>AD_SERVERNAME_CN</Id>
+        <Name />
+        <ItemType>35</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>AD_USE_SECURED_CONNECTION</Id>
+        <Name />
+        <ItemType>35</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>AD_USERNAME</Id>
+        <Name />
+        <ItemType>35</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>AD_EMAIL_CONTENT_CRITICAL</Id>
+        <Name />
+        <ItemType>35</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>AD_EMAIL_ADMINISTRATOR</Id>
+        <Name />
+        <ItemType>35</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>AD_EMAIL_SUBJECT_CRITICAL</Id>
+        <Name />
+        <ItemType>35</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>AD_EMAIL_CONTENT_ERRORS</Id>
+        <Name />
+        <ItemType>35</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>AD_EMAIL_SUBJECT_ERRORS</Id>
+        <Name />
+        <ItemType>35</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>SKILL_LEVEL_SETTINGS</Id>
+        <Name />
+        <ItemType>35</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>UCMA_PRESENCE_SERVICE_URL</Id>
+        <Name />
+        <ItemType>35</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>USE_DESIGNTIME_RESOURCES</Id>
+        <Name />
+        <ItemType>35</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>FBCB88103B4D414FAE8E38058F46CCF4</Id>
+        <Name />
+        <ItemType>28</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>E2A1706B60424707B39A1BDDDC8DB69C</Id>
+        <Name />
+        <ItemType>28</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>FC4A7E347D984994B76C942BFFCDF07B</Id>
+        <Name />
+        <ItemType>47</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>5B1343F25EC6471BB20279035A8C0C3E</Id>
+        <Name />
+        <ItemType>6</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>E2A1706B60424707B39A1BDDDC8DB69C</Id>
+            <ItemType>28</ItemType>
+            <Name>TotalAgility Forms</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>161F8F818093437482D2886B7B6756BB</Id>
+            <ItemType>36</ItemType>
+            <Name>SESSION_ID</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>5B1343F25EC6471BB20279035A8C0C3E</Id>
+            <ItemType>6</ItemType>
+            <Name>Adhoc Task</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>8B30679E1EE447C48AC8285725FB98DB</Id>
+        <Name />
+        <ItemType>6</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>E2A1706B60424707B39A1BDDDC8DB69C</Id>
+            <ItemType>28</ItemType>
+            <Name>TotalAgility Forms</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>161F8F818093437482D2886B7B6756BB</Id>
+            <ItemType>36</ItemType>
+            <Name>SESSION_ID</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>8B30679E1EE447C48AC8285725FB98DB</Id>
+            <ItemType>6</ItemType>
+            <Name>CaptureSolutions</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>3D8F695F09D44981B2D8269583A47686</Id>
+        <Name />
+        <ItemType>33</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>E2A1706B60424707B39A1BDDDC8DB69C</Id>
+            <ItemType>28</ItemType>
+            <Name>TotalAgility Forms</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+    </PackageItemAssociations>
+    <GlobalVariables>
+      <SessionVariableIdentity>
+        <Name>SESSION_ID</Name>
+        <Id>161F8F818093437482D2886B7B6756BB</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      </SessionVariableIdentity>
+      <SessionVariableIdentity>
+        <Name>WORKQUEUE_FORM</Name>
+        <Id>1E70BD400456422DBFA431767DC6CB0F</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      </SessionVariableIdentity>
+      <SessionVariableIdentity>
+        <Name>EPC</Name>
+        <Id>5E0F01E4914A48D08009FFC40C130EFF</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      </SessionVariableIdentity>
+      <SessionVariableIdentity>
+        <Name>JOB_ID</Name>
+        <Id>8A1DD88A21124A98A51B5679DE7FDCB4</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      </SessionVariableIdentity>
+      <SessionVariableIdentity>
+        <Name>NODE_ID</Name>
+        <Id>AFBE96EA665E4F16A2FDA88044A23D0A</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      </SessionVariableIdentity>
+    </GlobalVariables>
+    <ServerVariables>
+      <VariableIdentity>
+        <Id>SPP_SYSTEM_SESSION_ID</Id>
+        <Version>0</Version>
+        <DisplayName>SPP_SYSTEM_SESSION_ID</DisplayName>
+      </VariableIdentity>
+      <VariableIdentity>
+        <Id>SPP_SMTP_SERVER</Id>
+        <Version>0</Version>
+        <DisplayName>SPP_SMTP_SERVER</DisplayName>
+      </VariableIdentity>
+      <VariableIdentity>
+        <Id>SYSTEM_EMAIL_FROM</Id>
+        <Version>0</Version>
+        <DisplayName>SYSTEM_EMAIL_FROM</DisplayName>
+      </VariableIdentity>
+      <VariableIdentity>
+        <Id>AD_CHASE_REFERRAL</Id>
+        <Version>0</Version>
+        <DisplayName>AD_CHASE_REFERRAL</DisplayName>
+      </VariableIdentity>
+      <VariableIdentity>
+        <Id>AD_DEACTIVATE_USER</Id>
+        <Version>0</Version>
+        <DisplayName>AD_DEACTIVATE_USER</DisplayName>
+      </VariableIdentity>
+      <VariableIdentity>
+        <Id>AD_LAST_USNCHANGED</Id>
+        <Version>0</Version>
+        <DisplayName>AD_LAST_USNCHANGED</DisplayName>
+      </VariableIdentity>
+      <VariableIdentity>
+        <Id>AD_PASSWORD</Id>
+        <Version>0</Version>
+        <DisplayName>AD_PASSWORD</DisplayName>
+      </VariableIdentity>
+      <VariableIdentity>
+        <Id>AD_PORT</Id>
+        <Version>0</Version>
+        <DisplayName>AD_PORT</DisplayName>
+      </VariableIdentity>
+      <VariableIdentity>
+        <Id>AD_SECURITY_LEVEL</Id>
+        <Version>0</Version>
+        <DisplayName>AD_SECURITY_LEVEL</DisplayName>
+      </VariableIdentity>
+      <VariableIdentity>
+        <Id>AD_SERVERNAME</Id>
+        <Version>0</Version>
+        <DisplayName>AD_SERVERNAME</DisplayName>
+      </VariableIdentity>
+      <VariableIdentity>
+        <Id>AD_SERVERNAME_CN</Id>
+        <Version>0</Version>
+        <DisplayName>AD_SERVERNAME_CN</DisplayName>
+      </VariableIdentity>
+      <VariableIdentity>
+        <Id>AD_USE_SECURED_CONNECTION</Id>
+        <Version>0</Version>
+        <DisplayName>AD_USE_SECURED_CONNECTION</DisplayName>
+      </VariableIdentity>
+      <VariableIdentity>
+        <Id>AD_USERNAME</Id>
+        <Version>0</Version>
+        <DisplayName>AD_USERNAME</DisplayName>
+      </VariableIdentity>
+      <VariableIdentity>
+        <Id>AD_EMAIL_CONTENT_CRITICAL</Id>
+        <Version>0</Version>
+        <DisplayName>AD_EMAIL_CONTENT_CRITICAL</DisplayName>
+      </VariableIdentity>
+      <VariableIdentity>
+        <Id>AD_EMAIL_ADMINISTRATOR</Id>
+        <Version>0</Version>
+        <DisplayName>AD_EMAIL_ADMINISTRATOR</DisplayName>
+      </VariableIdentity>
+      <VariableIdentity>
+        <Id>AD_EMAIL_SUBJECT_CRITICAL</Id>
+        <Version>0</Version>
+        <DisplayName>AD_EMAIL_SUBJECT_CRITICAL</DisplayName>
+      </VariableIdentity>
+      <VariableIdentity>
+        <Id>AD_EMAIL_CONTENT_ERRORS</Id>
+        <Version>0</Version>
+        <DisplayName>AD_EMAIL_CONTENT_ERRORS</DisplayName>
+      </VariableIdentity>
+      <VariableIdentity>
+        <Id>AD_EMAIL_SUBJECT_ERRORS</Id>
+        <Version>0</Version>
+        <DisplayName>AD_EMAIL_SUBJECT_ERRORS</DisplayName>
+      </VariableIdentity>
+      <VariableIdentity>
+        <Id>SKILL_LEVEL_SETTINGS</Id>
+        <Version>0</Version>
+        <DisplayName>SKILL_LEVEL_SETTINGS</DisplayName>
+      </VariableIdentity>
+      <VariableIdentity>
+        <Id>UCMA_PRESENCE_SERVICE_URL</Id>
+        <Version>0</Version>
+        <DisplayName>UCMA_PRESENCE_SERVICE_URL</DisplayName>
+      </VariableIdentity>
+      <VariableIdentity>
+        <Id>USE_DESIGNTIME_RESOURCES</Id>
+        <Version>0</Version>
+        <DisplayName>USE_DESIGNTIME_RESOURCES</DisplayName>
+      </VariableIdentity>
+    </ServerVariables>
+    <DotNetReferences>
+      <DotNetReferenceIdentity>
+        <ReferenceId>FC4A7E347D984994B76C942BFFCDF07B</ReferenceId>
+        <ReferencePath>TotalAgility.Sdk.dll</ReferencePath>
+        <ReferenceType>0</ReferenceType>
+        <ReferenceName />
+      </DotNetReferenceIdentity>
+    </DotNetReferences>
+  </Data>
+  <Comments />
+  <ResourceAccessTokens>
+    <ResourceAccess>
+      <ResourceIdentity>
+        <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Everyone</Name>
+        <ResourceType>GroupOfWorkers</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <AccessType>MaintenanceAccess</AccessType>
+      <PermissionType>FullControl</PermissionType>
+    </ResourceAccess>
+  </ResourceAccessTokens>
+  <PermissionType>NoAccess</PermissionType>
+</SpaPackage>
